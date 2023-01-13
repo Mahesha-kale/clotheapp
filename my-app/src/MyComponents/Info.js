@@ -23,6 +23,7 @@ export const Info = () => {
     ).then(
       data => {
         setdata(data)
+        console.log(data)
       }
     )
   }, [])

@@ -23,6 +23,7 @@ export const Wash = () => {
     ).then(
       data => {
         setdata(data)
+        console.log(data)
       }
     )
   }, [])

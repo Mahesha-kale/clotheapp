@@ -23,7 +23,7 @@ export const Wardrobe = () => {
     ).then(
       data => {
         setdata(data)
-        
+        console.log(data)
       }
     )
   }, [])

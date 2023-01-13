@@ -10,7 +10,7 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  HashRouter
+  
 } from "react-router-dom";
 
 
@@ -18,11 +18,11 @@ function App() {
   
   return (
     <>
-    <HashRouter>
+    <Router basename='/clotheapp'>
     <Header title="My List" searchBar={false}/>
     <Switch>
           
-          <Route exact path="/" component={()=>
+          <Route exact path="/clotheapp" component={()=>
             (
               <>
               <h1>Hello !!</h1>
@@ -39,7 +39,7 @@ function App() {
     
     
     <Footer/>
-    </HashRouter>
+    </Router>
     </>
   );
 }
