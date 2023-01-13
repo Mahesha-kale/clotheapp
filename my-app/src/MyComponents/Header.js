@@ -16,13 +16,13 @@ export default function Header(props) {
           <a className="nav-link active"  aria-current="page" href='/' >Home</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link active" href='/wash'>Wash</a>
+          <a className="nav-link active" href='clotheapp/#/wash'>Wash</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link active"  aria-current="page" href='/wardrobe'>Wardrobe</a>
+          <a className="nav-link active"  aria-current="page" href='clotheapp/#/wardrobe'>Wardrobe</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link active" href='/info'>Info</a>
+          <a className="nav-link active" href='clotheapp/#/info'>Info</a>
         </li>
       </ul>
       {props.searchBar? <form className="d-flex" role="search">
