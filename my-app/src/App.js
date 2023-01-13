@@ -9,8 +9,8 @@ import React from 'react';
 import {
   BrowserRouter as Router,
   Switch,
-  Route
-  
+  Route,
+  HashRouter
 } from "react-router-dom";
 
 
@@ -18,7 +18,7 @@ function App() {
   
   return (
     <>
-    <Router>
+    <HashRouter>
     <Header title="My List" searchBar={false}/>
     <Switch>
           
@@ -39,7 +39,7 @@ function App() {
     
     
     <Footer/>
-    </Router>
+    </HashRouter>
     </>
   );
 }
