@@ -13,9 +13,12 @@ function App() {
   
   return (
     <>
-    <Header title="My List" searchBar={false}/> 
+    <Header title="My List" searchBar={true}/> 
+    <p class="fs-1 fw-bold text-center text-decoration-underline">Info</p>
     <Info/> 
+    <p class="fs-1 fw-bold text-center text-decoration-underline">Wash</p>
     <Wash/> 
+    <p class="fs-1 fw-bold text-center text-decoration-underline">Wardrobe</p>
     <Wardrobe/>     
     <Footer/>
     </>

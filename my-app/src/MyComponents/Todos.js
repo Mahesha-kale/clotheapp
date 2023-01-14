@@ -9,7 +9,10 @@ export const Todos = (props) => {
 
   
   return (
+    
     <div className='container'  style={myStyle}>
+      <div class="row">
+            
       <h3 className='my-3'>Clothes List</h3>
       {props.todos.length===0?"No Clothes To Display":
         props.todos.map((todo)=>{
@@ -17,6 +20,8 @@ export const Todos = (props) => {
            <TodoItem todo={todo} key={todo.clo_id}/>
            )
       })}
-    </div>
+      </div>
+      </div>
+    
   )
 }
