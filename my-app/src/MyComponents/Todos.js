@@ -11,7 +11,7 @@ export const Todos = (props) => {
   return (
     
     <div className='container'  style={myStyle}>
-      <div class="row">
+      <div className="row">
             
       <h3 className='my-3'>Clothes List</h3>
       {props.todos.length===0?"No Clothes To Display":

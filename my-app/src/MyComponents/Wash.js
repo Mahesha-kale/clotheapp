@@ -27,7 +27,7 @@ export const Wash = () => {
       }
     )
   }, [])
-
+ console.log(data)
   return (
     <div>
         {<Todos todos = {data} />}
