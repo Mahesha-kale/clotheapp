@@ -7,7 +7,7 @@ export const Wardrobe = () => {
   const [data, setdata] = useState([{}])
 
   useEffect(() => {
-     fetch('/wardrobe', {
+     fetch('https://mahesha.pythonanywhere.com/wardrobe', {
       method:"GET",
       mode: 'no-cors',
       headers:{

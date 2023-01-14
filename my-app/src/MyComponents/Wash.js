@@ -7,7 +7,7 @@ export const Wash = () => {
   const [data, setdata] = useState([{}])
 
   useEffect(() => {
-     fetch('/wash', {
+     fetch('https://mahesha.pythonanywhere.com/wash', {
       method:"GET",
       mode: 'no-cors',
       headers:{
